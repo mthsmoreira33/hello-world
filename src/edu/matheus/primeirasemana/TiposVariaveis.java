@@ -4,7 +4,11 @@ public class TiposVariaveis {
     public static void main(String[] args) {
         //tipos inteiros
         byte timeDeFutebol = 11; //-128 até 127
+        //casting
+        byte timeDeFutebolCasting = (byte) timeDeFutebol;
         short paisesMundo = 193;
+        //casting
+        short paisesMundoCasting = (short) paisesMundo;
         int populacaoBrasil = 220000000;
         long celulasCorpoHumano = 37000000000000L;
 
@@ -12,6 +16,6 @@ public class TiposVariaveis {
         float alturaMichaelJordan = 1.96F;
         double preco = 200.50;
 
-        System.out.println("Quantas jogadores titulares tem num time de futebol: " + timeDeFutebol + "\n Países reconhecidos pela ONU: " + paisesMundo + "\n População do Brasil: " + populacaoBrasil + "\n Células no Corpo Humano: " + celulasCorpoHumano + "\n Altura do Michael Jordan: " + alturaMichaelJordan + "\n Preço: R$" + preco);
+        System.out.println("Quantas jogadores titulares tem num time de futebol: " + timeDeFutebolCasting + "\n Países reconhecidos pela ONU: " + paisesMundoCasting + "\n População do Brasil: " + populacaoBrasil + "\n Células no Corpo Humano: " + celulasCorpoHumano + "\n Altura do Michael Jordan: " + alturaMichaelJordan + "\n Preço: R$" + preco);
     }
 }
