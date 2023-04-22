@@ -1,5 +1,7 @@
 package edu.matheus.primeirasemana;
 
+import java.util.Date;
+
 public class TiposVariaveis {
     public static void main(String[] args) {
         //tipos inteiros
@@ -16,6 +18,9 @@ public class TiposVariaveis {
         float alturaMichaelJordan = 1.96F;
         double preco = 200.50;
 
-        System.out.println("Quantas jogadores titulares tem num time de futebol: " + timeDeFutebolCasting + "\n Países reconhecidos pela ONU: " + paisesMundoCasting + "\n População do Brasil: " + populacaoBrasil + "\n Células no Corpo Humano: " + celulasCorpoHumano + "\n Altura do Michael Jordan: " + alturaMichaelJordan + "\n Preço: R$" + preco);
+        //outros tipos
+        Date hoje = new Date();
+
+        System.out.println("Quantas jogadores titulares tem num time de futebol: " + timeDeFutebolCasting + "\n Países reconhecidos pela ONU: " + paisesMundoCasting + "\n População do Brasil: " + populacaoBrasil + "\n Células no Corpo Humano: " + celulasCorpoHumano + "\n Altura do Michael Jordan: " + alturaMichaelJordan + "\n Preço: R$" + preco + "\n Data de hoje: " + hoje);
     }
 }
